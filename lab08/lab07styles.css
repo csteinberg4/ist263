@@ -1,0 +1,24 @@
+body{background-color:#9ec0e4;}
+p{color:#13174b;}
+a{color: #0c6c6c;}
+h1{color: #E92066;}
+.center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }  
+nav{background-color: #088F8F;
+padding: 10px;
+margin-bottom: 30px;
+}  
+nav a {color: #0096FF;}
+nav a:hover {background-color: #0047AB;}
+.img1 {float: left; margin-right: 10px;}
+            .clear {clear: both;}
+
+            .part2 {display: flex;}
+            .part2 article {padding: 20px;}
+            .article1, .article2, .article3 {margin: 10px;}
+            .article1 {flex: 2; order: 3; background-color: #cce5ff; border-radius: 1em;}
+            .article2 {flex: 1; order: 2;}
+            .article3 {flex: 1; order: 1;}
