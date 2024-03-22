@@ -1,0 +1,35 @@
+body{background-color:#9ec0e4;}
+p{color:#13174b;}
+a{color: #0c6c6c;}
+h1{color: #E92066;}
+.center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }  
+nav{background-color: #088F8F;
+padding: 10px;
+margin-bottom: 30px;
+}  
+nav a {color: #0096FF;}
+nav a:hover {background-color: #0047AB;}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.rightcolumn{
+    flex-basis: 75%;
+    margin: 30px;
+    padding: 60px;
+}
+.otherskills{
+    background-color: #0047AB;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 25px;
+    width: 300px;
+}
+.parent{
+    display: flex;
+    padding: 10px;
+}
