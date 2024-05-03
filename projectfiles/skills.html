@@ -16,7 +16,7 @@
             color:cornflowerblue;
             text-align: center; 
         }
-        } 
+        
         .resumetext{
             font-size: 3em;
             font-family: "Merriweather", serif;
@@ -33,13 +33,94 @@
             font-style: normal;
             color:cornflowerblue;  
         }
-        .text0, .text1, .text2, .text3, .text4 {
+        .text0, .text1, .text2, .text3, .text5, .text4 {
             font-size: small;
             font-family: "Merriweather", serif;
             font-weight: 400;
             font-style: normal;
             color: black;
+        }      
+        footer {
+            border-top: 1px solid black; 
+            padding-top: 10px; 
+            margin: 20px 0; 
+            border: 4;
         }
+
+        hr {
+            margin: 20px 0; 
+            border: 0; 
+            border-top: 1px solid black
+        }
+        .video-container{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 60vh; 
+      }
+        .text0, .text1, .text2, .text3, .extratext, .text4, .text5, .resumetext{
+         text-align: center;
+        }
+        .image-container{
+          display: flex;
+          justify-content: center;
+        }
+        .linkedin, .X, .Instagram{
+          float: right;
+        }
+        .basketball, .boeheim, .eagle, .jim{
+          padding: 20px;
+      
+        }
+
+        .video-container video, .image-container img, .basketball, .boeheim, .eagle, .jim {
+          max-width: 100%;
+        }
+
+        .fourpics {
+          padding: 30px;
+          flex-wrap: wrap;
+          margin-left: 100px;
+        }
+
+        .resume {
+          padding: 50px;
+        }
+
+        .resume img {
+          max-width: 100%;
+          padding-right: 30px;
+          margin-left: 20px;
+        }
+
+        .skip-link {
+        position: absolute;
+        left: -9999px;
+        top: auto;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+    }
+
+    .skip-link:focus {
+        position: static;
+        width: auto;
+        height: auto;
+    }
+    body{
+      background-color: #C3CBD6;
+    }
+
+    .socialmedia {
+      float: right;
+    }
+
+    .socialmedia img {
+      height: 70px;
+      width: 70px;
+      justify-content: space-between;
+      padding: 5px;
+    }
     </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -68,39 +149,73 @@
         </div>
       </nav>
 
+      <a href="#main-content" class="skip-link">Skip to Content</a>
+      <div id="main-content">
       <p class="skillstext">My Work!</p>
-      <video width="840" height="460" controls>
-        <source src="../images/video1forproject.mp4" type="video/mp4">
-        Your browser does not support the video tag.
+      
+        <div class="video-container">
+          <video width="640" height="360" controls>
+              <source src="../images/video4forproject.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+      </div>
+  
     </video>
-    <p class="text0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit eveniet atque, tempora cum molestias provident perspiciatis cumque voluptates rerum nisi officia corporis, amet necessitatibus! Accusantium molestias iste aliquid aperiam labore!</p>
+    <p class="text0">Ever since I can remember I have always had a knack to talk basketball. I become very active on Twitter in 2020, and my profile blew up. I founded the first-ever female led Knicks fanpage @LetsTalkKnicks now currently with over 11,000 followers to date. As I grew the following with commentary each game, news outlets started to reach out to feature me. Since 2021, I have spoke with the New York Post as shown above as well various other New York outlets.</p>
 
-    <img class="interview1" src="../images/photo11forproject.png" alt="Charlotte Steinberg talking to television host Brandon London for the New York Post about the New York Knicks">
-    <p class="text1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quis praesentium corporis voluptatum autem minima eum omnis nam voluptate consequatur, expedita delectus at ullam, laborum dignissimos repellat accusantium sint id?</p>
+    <div class="image-container">
+      <img src="../images/photo11forproject.png" alt="Charlotte Steinberg talking to television host Brandon London for the New York Post about the New York Knicks">
+    </div>
 
-    <img class="interview2" src="../images/photo10forproject.png" alt="Charlotte Steinberg speaking with television host Dexter Henry for the New York Post about what are the key things for the New York Knicks to finish out the NBA Season">
-    <p class="text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ducimus hic aspernatur architecto, ex at fugit recusandae quidem iusto, a voluptatibus eum minus necessitatibus. Aspernatur, quisquam a. Explicabo, iste ab.</p>
+    <p class="text1">For the New York Post, I appear sometimes on television to talk the morning after a New York Knicks game or to give an analysis on a trade or acquisition the Knicks have made. I am extremely grateful to be able to say that the connections I have made from these two organizations have led me to internships, connections, and real-world experience. </p>
 
-    <img class="interview3" src="../images/photo12forproject.jpg" alt="Charlotte Steinberg talking with television host Brandon London for the New York Post about the upcoming matchup between the New York Knicks and the Dallas Mavericks">
-    <p class="text3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, dolorum odio earum, pariatur, reprehenderit cumque debitis cupiditate neque doloremque deleniti vel iure blanditiis aspernatur magnam. Labore veniam quis doloremque laudantium.</p>
+    <div class="image-container">
+      <img src="../images/photo10forproject.png" alt=" Charlotte Steinberg with television host Dexter Henry for the New York Post about what are the key things for the New York Knicks to finish out the NBA Season">
+    </div>
+  
+    <p class="text2">Interviewed during the last four games of the season for a preview of the playoffs.</p>
 
-    <video width="840" height="460" controls>
-        <source src="../images/video2forproject.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <p class="text4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem distinctio iure laudantium sequi cupiditate? Porro inventore magni sit quia eos voluptas possimus. Architecto assumenda, aperiam cumque facere neque pariatur. Neque!</p>
+    <div class="image-container">
+      <img src="../images/photo12forproject.jpg" alt="Charlotte Steinberg talking with television host Brandon London for the New York Post about the upcoming matchup between the New York Knicks and the Dallas Mavericks">
+    </div>
+  
+    <p class="text3">Jalen Brunson, the star point guard who signed with the Knicks played wiith the Dallas Mavericks previously. Due to that, the Knicks versus Mavs matchup is always a highly anticipated matchup as Jalen Brunson rejected Dallas's contract extension. </p>
 
-    <video width="840" height="460" controls>
-        <source src="../images/video3forproject.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <p class="text4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet laborum temporibus nam, consequuntur accusantium numquam recusandae nesciunt ullam, sed quo corrupti atque praesentium esse beatae fugiat consectetur reiciendis deleniti? Laudantium.</p>
 
-    <p class="resumetext">My Resume!</p>
-    <img class="resume" src="../images/photo15forproject.jpg" alt="Charlotte Steinberg's Resume">
+    <div class="fourpics">
+      <img class="basketball" src="../images/photo21forproject.png" alt="Orange Gameday graphic for Women's Basketball Senior Day">
+      <img class="boeheim" src="../images/photo18forproject.png" alt="Basketball fans smiling on Jim Boeheim Day at the JMA Wireless Dome in Syracuse, New York">
+      <img class="eagle" src="../images/photo19forproject.png" alt="overlooking photo of the dome showing Ian Eagle, a sports broadcaster on the big screen speaking">
+      <img class="jim" src="../images/photo20forproject.png" alt="Jim Boeheim and a fan posing for a picture with the fan wearing his iconic orange suit and glasses">
 
-    <img class="linkedin" src="../images/logo-sized.png" alt="Linkedin logo">
-    <img class="X" src="../images/Xlogo.jpg" alt="X or Twitter as some might call it logo">
-    <img class="Instagram" src="../images/Instagramlogo.jpg" alt="Instagram logo">
+    </div>
+
+
+    <p class="extratext">Working as a Social Media Manager and Creative Intern for Syracuse Athletics has been nothing but amazing for me.</p>
+
+    <p class="text4">My main job for Syracuse Athletics is creating content on gamedays for various sports for Instagram and other social platforms. One of my favorite events to create content was for Jim Boeheim Day at the JMA Wireless Dome, as shown above. </p>
+  
+    <p class="text5">While managing the Syracuse Athletics social platforms, during games I manage the Syracuse Men's and Women's Basketball, Men's and Women's Lacrosse, and Football.</p>
+
+
+    <div class="resume">     
+      <p class="resumetext">My Resume!</p>
+
+      <img class="resume" src="../images/photo15forproject.png" alt="Charlotte Steinberg's Resume">
+    
+    </div>
+    <footer>
+
+  
+      <p>&copy; 2024 Charlotte Steinberg</p>
+   
+
+    <div class="socialmedia">
+      <a href="https://www.linkedin.com/in/charlotte-steinberg"><img class="linkedin" src="../images/linkedin.png" alt="Linkedin logo"></a>
+    <a href="https://twitter.com/charsteinberg4"><img class="X" src="../images/Xlogo.png" alt="X logo or Twitter logo"></a>
+    <a href="https://www.instagram.com/charsteinberg/?next=%2Fkazuhalesserafim%2Ftagged%2F&ref=Dirty%2BInstagram&hl=hi"><img class="Instagram" src="../images/Instagramlogo.png"></a>
+
+    </div>
+    </footer>
 </body>
 </html>

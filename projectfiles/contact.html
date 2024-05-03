@@ -39,6 +39,73 @@
             color:cornflowerblue;
             text-align: center;  
         }
+        footer {
+            border-top: 1px solid black; 
+            padding-top: 10px; 
+            margin: 20px 0; 
+            border: 4;
+        }
+        hr {
+            margin: 20px 0; 
+            border: 0; 
+            border-top: 1px solid black
+        }
+        .basketball, .bdj {
+          justify-content: center; 
+        }
+        .contactme{
+          max-width: 100%;
+          margin-bottom: 30px;
+        }
+
+        form {
+          margin-bottom: 30px;
+        }
+
+        .twopics {
+          padding: 30px;
+          margin-left: 90px;
+        }
+
+        .basketball, .bdj {
+          max-width: 100%;
+          padding: 30px;
+       
+        }
+
+        .text1{
+          justify-content: center;
+          margin-left: 60px;
+        }
+
+        .skip-link {
+        position: absolute;
+        left: -9999px;
+        top: auto;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+    }
+
+    .skip-link:focus {
+        position: static;
+        width: auto;
+        height: auto;
+    }
+    body{
+      background-color: #C3CBD6;
+    }
+
+    .socialmedia {
+      float: right;
+    }
+
+    .socialmedia img {
+      height: 70px;
+      width: 70px;
+      justify-content: space-between;
+      padding: 5px;
+    }
     </style>
 </head>
 <body>
@@ -62,11 +129,13 @@
             </ul>
           </div>
         </div>
+        <a href="#main-content" class="skip-link">Skip to Content</a>
+        <div id="main-content">
       </nav>  
       <p class="contacttext">Contact Me!</p>
       <img class="contactme" src="../images/photo1forproject.jpg" alt="Charlotte Steinberg on the field at the JMA Wirless Dome at Syracuse University filming videos for Syracuse Athletics">
 
-      <form action="???" method="post">
+      <form action="https://formspree.io/f/xvoekyby" method="post">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
 
@@ -78,9 +147,29 @@
 
         <input type="submit" value="Submit">
     </form>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi consequatur sapiente, nobis fugiat vitae soluta quidem optio nemo tempora vel quos qui minus ut sint voluptatum assumenda esse impedit velit?</p>
 
-    <img class="basketball" src="../images/photo14forproject.jpg" alt="Syracuse Women's Basketball Media Day">
-    <img class="bdj" src="../images/photo13forproject.jpg" alt="Charlotte Steinberg standing in front of teleprompter on NCC News telling people about the Syracuse Spring Game 2024">
+    <p class="text1">I am looking for a position in sports social media. My experience with the New York Post, Syracuse Athletics, and my experience in front of the camera, I am set up for success for the future.</p>
+
+
+    <div class="twopics">
+      <img class="basketball" src="../images/photo14forproject.png" alt="Syracuse Women's Basketball Media Day">
+      <img class="bdj" src="../images/photo13forproject.png" alt="Charlotte Steinberg standing in front of teleprompter on NCC News telling people about the Syracuse Spring Game 2024">
+  
+
+    </div>
+   
+    <footer>
+
+  
+      <p>&copy; 2024 Charlotte Steinberg</p>
+   
+
+    <div class="socialmedia">
+      <a href="https://www.linkedin.com/in/charlotte-steinberg"><img class="linkedin" src="../images/linkedin.png" alt="Linkedin logo"></a>
+    <a href="https://twitter.com/charsteinberg4"><img class="X" src="../images/Xlogo.png" alt="X logo or Twitter logo"></a>
+    <a href="https://www.instagram.com/charsteinberg/?next=%2Fkazuhalesserafim%2Ftagged%2F&ref=Dirty%2BInstagram&hl=hi"><img class="Instagram" src="../images/Instagramlogo.png"></a>
+
+    </div>
+    </footer>
 </body>
 </html>
